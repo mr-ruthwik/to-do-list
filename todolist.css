@@ -1,0 +1,84 @@
+* {
+    background-color: rgb(56, 16, 16);
+}
+
+/* title name */
+.title {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: rgb(255, 0, 98);
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 6px #0105f4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* add task button */
+#btn {
+    color: cyan;
+    border-color: rgb(255, 0, 102);
+    border-width: 4px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* tasks details */
+#info {
+    border-radius: 5px;
+    border-color: blue;
+    color: orange;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    width: 25%;
+    padding: 8px;
+    border-width: 4px;
+}
+
+/* list of tasks */
+.list {
+    color: rgb(255, 0, 247);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: monospace;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* done button */
+.btn1 {
+    margin-left: 20px;
+    margin-right: 15px;
+    border-color: aquamarine;
+    font-size: 18px;
+    padding: 10px 14px;
+    font-weight: bold;
+    color: yellow;
+    border-width: 3px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* delete button */
+.btn2 {
+    border-color: red;
+    color: yellow;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 14px;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+/* striking line */
+.done {
+    color: red;
+}
